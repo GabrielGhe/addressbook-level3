@@ -55,6 +55,14 @@ Priority | As a ... | I want to ... | So that I can...
 
 (For all use cases below, the **System** is the `AddressBook` and the **Actor** is the `user`, unless specified otherwise)
 
+#### Use case: Renaming Tag
+
+1. User requests to rename `friends` tag to `buddies` tag
+2. AddressBook determines if there is a friends tag
+3. AddressBook finds a `friends` tag and confirms refactor
+3. AddressBook doesn't find a `friends` tag and rejects refactor
+
+
 #### Use case: Delete person
 
 **MSS**
