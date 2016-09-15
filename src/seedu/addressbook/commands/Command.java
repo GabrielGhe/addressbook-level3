@@ -42,7 +42,7 @@ public abstract class Command {
     public abstract CommandResult execute() throws Exception;
     
     /**
-     * This method will return true for command types that mutate the data.
+     * Return true for command types that mutate the data.
      */
     public abstract boolean isMutating();
 
