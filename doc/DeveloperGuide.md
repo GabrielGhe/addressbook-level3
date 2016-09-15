@@ -57,11 +57,14 @@ Priority | As a ... | I want to ... | So that I can...
 
 #### Use case: Renaming Tag
 
-1. User requests to rename `friends` tag to `buddies` tag
-2. AddressBook determines if there is a friends tag
-3. AddressBook finds a `friends` tag and confirms refactor
-3. AddressBook doesn't find a `friends` tag and rejects refactor
+1. User asks AddressBook to list tags
+2. User requests to rename tag x to tag y
+3. AddressBook determines if there is a tag x
+4. AddressBook finds a x tag and renames all x tags to the y tag
 
+**Extensions**
+
+3a. AddressBook doesn't find a x tag and rejects the rename
 
 #### Use case: Delete person
 
